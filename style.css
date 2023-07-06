@@ -1,0 +1,641 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.bg{
+    position: absolute;
+    z-index: -100;
+    margin-top: -50px;
+    margin-left:800px;
+}
+#topbar{
+    margin-top:30px;
+}
+
+.bar{
+    margin-right:50px;
+    text-decoration:none;
+    color:black;
+}
+
+.bar:hover{
+    color: red;
+}
+
+#sign{
+    margin-right:50px;
+    text-decoration:none;
+    color:black;
+    cursor: pointer;
+}
+
+#toplan{
+    margin-right:50px;
+    text-decoration:none;
+    color:black;
+}
+.barlogo{
+    margin-left:100px;
+    margin-right:350px;
+}
+
+#sign{
+   background-color: transparent;
+   padding:10px 10px;
+   border-width: 1px;
+   text-align: center;
+   border-radius: 5px;
+}
+
+#toplan{
+    background-color: transparent;
+    border:none;
+}
+.herocontent{
+    margin:100px;
+    display:inline-block;
+    width:500px;
+}    
+
+.tagline{
+    color:red;
+    font-size:20px;
+    text-transform:uppercase;
+    font-weight: bold;
+}
+
+.heading{
+    font-size:70px;
+    color:#181E4B;
+}
+
+.enjoyline{
+    position:relative;
+    width:300px;
+    bottom:180px;
+    left:200px;
+    z-index:-1;
+}
+.CTA{
+    margin-top:20px;
+    background-color:#F1A501;
+    color:white;
+    border:none;
+    font-size:16px;
+    padding: 15px 20px;
+    text-align: center;
+    cursor:pointer;
+    border-radius: 10px;
+    transition:0.5s;
+}
+
+.CTA:hover{
+    opacity: 0.5;
+}
+
+.playbutton{
+    position: relative;
+    top:62px;
+    cursor:pointer;
+}
+
+.playbutton:hover{
+    opacity: 0.5;
+}
+.play{
+    color:grey;
+    font-weight: bold;
+    position: relative;
+    top:-30px;
+    left:250px;
+}
+.desc{
+    font-size:20px; 
+    color:grey;
+    font-weight: bold;
+}
+
+.traveller{
+    height:500px;
+    margin-top:40px;
+}
+
+/*SERVICE*/
+
+.service-des{
+    text-align: center;
+    margin-bottom: 100px;
+    margin-left: 50px;
+}
+
+.services1stheading{
+    font-size: 25px;
+    color: grey;
+    text-transform: uppercase;
+    font-weight:bold;
+}
+.services2ndheading{
+    font-size: 50px;
+    font-weight: bold;
+}
+.box{
+    display: inline-block;
+    margin-right: 100px;
+    width:150px;
+}
+.ser-img{
+    margin-right: 50px;
+}
+
+.boxheading{
+    font-weight:bold;
+}
+.servicedata{
+    color:grey;
+    font-size: 15px;
+
+}
+
+#flightimg{
+    height: 120px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.destinations{
+    display: inline-block;
+    width:500px;
+    margin-right:-150px;
+    margin-left:85px;
+}
+
+.des-img{
+    height: 400px;
+}
+
+.place{
+    margin-top: -100px;
+    margin-left:60px;
+    color: grey;
+    font-weight: bold;
+    font-size:15px;
+}
+
+.nav-img{
+    margin-top: 5px;
+    margin-left:50px;
+    display: inline-block;
+}
+
+.time{
+    display: inline-block;
+    color: grey;
+    font-weight: bold;
+}
+
+.des-data{
+    margin-top:-163px;
+    position: relative;
+    background-color:white;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.spring{
+    position: relative;
+    height:170px;
+    bottom:240px;
+    left:1190px;
+    z-index: -1;
+}
+
+.des{
+    height:525px;
+}
+.tripfirstheading{
+    color:grey;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.tripdata{
+    display:inline-block;
+    position:relative;
+    bottom: 200px;
+    margin-left: 150px;
+    width: 375px;
+    margin-top:-100px
+}
+.trip2ndheading{
+    font-size:40px;
+    text-transform: capitalize;
+}
+
+.tripdataimg{
+  margin: 20px;
+}
+
+.tripdata1st{
+    color: grey;
+    margin-left:20px;
+    margin-top: -75px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.tripdata2nd{
+    text-align: center;
+    margin-left:100px;
+    color: grey;
+    font-weight:200
+}
+
+.tripimage{
+    margin-top: -50px;
+    margin-left: 100px;
+}
+
+.testimonials{
+    display:flex;
+    padding-left: 150px;
+    gap:6rem;
+}
+
+.left-tes{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.test-1-heading{
+    color: grey;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.test-2-heading{
+   font-size:50px;
+   color: #14183E;
+   font-weight: bold;
+}
+
+.threedots{
+    height:10px;
+    margin-top: 100px;
+}
+
+.test-right-data{
+    width:500px;
+    border-radius: 10px;
+    box-shadow: 0 5px 18px -2px rgba(0, 0, 0, 0.13);
+    text-align: left;
+    padding: 15px;
+    position: relative;
+    z-index: -1;
+    top:-25px;
+    left:35px;
+    background-color:white;
+}
+
+.right_para{
+    color:grey;
+    font-size: 20px;
+}
+
+.right_name{
+    color:grey;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.right_place{
+    color:grey;
+}
+
+.test_right_bottom{
+    height: 100px;
+    width: 500px;
+    padding-top: 100px;
+    margin-left: 100px;
+    padding-left: 10px;
+    position:relative;
+    z-index: -2;
+    bottom:120px;
+}   
+
+.scroll{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top:100px;
+    right:30px;
+    gap:50px;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-around;
+    gap:20px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+#logo1{
+    filter: grayscale(1);
+    height: 120px;
+}
+
+#logo2{
+    filter: grayscale(1);
+    height: 120px;
+}
+
+#logo3{
+    height: 250px;
+    margin-top: -10px;
+}
+
+#logo4{
+    filter: grayscale(1);
+    height: 50px;
+    width: 150px;
+    margin-top: 35px;
+}
+
+#logo5{
+    filter: grayscale(1);
+    height: 50px;
+    width: 150px;
+    margin-top: 35px;
+}
+
+.subscribe{
+    padding-bottom: -1000px;
+}
+.subsback{
+    margin-left: 100px;
+}
+
+.circles1{
+   position: relative;
+   bottom:365px;
+}
+
+.circles2{
+    position: relative;
+    bottom:400px;
+    left:520px;
+}
+
+.sendback{
+    position: relative;
+    bottom:740px;
+    left:470px;
+}
+
+.send{
+    position: relative;
+    bottom:755px;
+    left:412px;
+}
+
+.subsdata{
+    position: relative;
+    height: 407px;
+    width:700px;
+    bottom:650px;
+    left:320px;
+}
+
+.subsheading{
+    color: #5E6282;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.subsform{
+    padding: 25px 100px 24px 50px;
+    border:1px none #000;
+}
+
+.subsbutton{
+    background-color:#FF946D;
+    color:white;
+    border:none;
+    font-size:16px;
+    padding: 15px 32px;
+    text-align: center;
+    cursor:pointer;
+    border-radius: 10px;
+    transition:0.5s;
+    margin-left: 10px;
+}
+
+.subsbutton:hover{
+    opacity: 0.5;
+}
+
+.subsinput{
+    display: flex;
+    margin-left: 100px;
+    gap:20px;
+}
+
+.subscribe{
+    height:550px;
+}
+
+.footer{
+    display: flex;
+    gap:120px;
+    margin-left: 50px;
+}
+
+.footerbox{
+    width:250px;
+}
+
+.threecol{
+    display: flex;
+    gap:100px;
+}
+
+.footerfirstheading{
+    color:#181E4B;
+    font-size: 40px;
+    font-weight:500;
+}
+
+.footerdata{
+    color:grey;
+}
+
+.footlistheading{
+    color:#080809;
+    font-size:20px;
+    font-weight: bold;
+}
+
+.footlist{
+    list-style-type: none;
+    color:grey;
+    line-height:30px;
+    font-weight: bold;
+}
+
+.appheading{
+    color:grey;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.social{
+    transition:all 0.5s ease-in-out 0s;
+}
+.social:hover{
+    background-color: #181E4B;
+}
+.copyright{
+    margin-top: 20px;
+    text-align: center;
+    color:grey
+}
+
+.download{
+    transition:all 0.5s ease-in-out 0s;
+}
+
+.download:hover{
+  background-color:chocolate;
+}
+
+@media screen and (max-width:600px) {
+ 
+    #topbar{
+        margin-left: 30px;
+        margin-top: -150px;
+    }
+
+    .herocontent{
+        height: 50px;
+        margin-top:20px;
+        margin-left: 30px;
+        width:300px;
+    }
+    .tagline{
+        font-size:15px;
+    }
+    .heading{
+        font-size: 50px;
+    }
+
+    .enjoyline{
+        position: relative;
+        left:150px;
+        width:200px;
+    }
+
+    .traveller{
+        margin-left: -60px;
+    }
+
+    .bg{
+        position: relative;
+        height:200px;
+        right:600px;
+        top:0px;
+        z-index: -1;
+    }
+
+    .tripdata{
+        position: relative;
+        top:800px;
+        height:300px;
+        left:-100px;
+    }
+    
+    .tripimage{
+        position: relative;
+        top:850px;
+        left:-100px;
+        height: 500px;
+    }
+    .testimonials{
+        margin-top: 1000px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .right-tes{
+        width:200px;
+        margin-left: -100px;
+    }
+
+    .right-para{
+        font-size: 10px;
+    }
+
+    .scroll{
+        width:20px;
+        position: relative;
+        top:-500px;
+        left:500px;
+    }
+
+    .logo{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .subscribe{
+        margin-top: 50px;
+    }
+    .subsback{
+        width:660px;
+        height: 400px;
+        margin-left: -10px;
+    }
+
+    .circles2{
+        position: relative;
+        left:-100px;
+        top:-750px;
+        left:390px;
+    }
+    .subsdata{
+        position: relative;
+        bottom:1000px;
+        left:-20px;
+        height: 200px;
+    }
+
+    .subsheading{
+        font-size: 20px;
+    }
+
+    .sendback{
+        position: relative;
+        top:-1100px;
+        z-index: +3;
+        left:350px;
+    }
+
+    .send{
+        position: relative;
+        top:-1120px;
+        z-index: +4;
+        left:290px;
+    }
+
+    .spring{
+        position: relative;
+        left:+320px;
+        z-index: -1;
+    }
+} 

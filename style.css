@@ -3,6 +3,9 @@
     margin:0;
 }
 
+body{
+    overflow-x:hidden;
+}  
 .bg{
     position: absolute;
     z-index: -100;
